@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,94 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyWearherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daySky.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-NH-8ab">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMS-Yj-WUc" customClass="EffectsView" customModule="MyWearherApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <skView tag="110" contentMode="scaleToFill" allowsTransparency="YES" sceneName="MyScene.sks" translatesAutoresizingMaskIntoConstraints="NO" id="LUI-ds-unD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <color key="backgroundColor" red="0.093153382907067539" green="1" blue="0.077601804380235562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </skView>
+                                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="387" image="Clouds-PNG-Image.png" translatesAutoresizingMaskIntoConstraints="NO" id="IB2-dW-luT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="387"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.9002364613626439" blue="0.21925384112852442" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="IB2-dW-luT" secondAttribute="trailing" id="4NJ-yp-afy"/>
+                                    <constraint firstAttribute="bottom" secondItem="LUI-ds-unD" secondAttribute="bottom" id="AIP-3J-wxe"/>
+                                    <constraint firstItem="LUI-ds-unD" firstAttribute="leading" secondItem="GMS-Yj-WUc" secondAttribute="leading" id="AdP-aN-CVC"/>
+                                    <constraint firstItem="IB2-dW-luT" firstAttribute="top" secondItem="GMS-Yj-WUc" secondAttribute="top" id="CUC-uC-Uc5"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IB2-dW-luT" secondAttribute="bottom" constant="260" id="Iuh-l2-2gN"/>
+                                    <constraint firstItem="IB2-dW-luT" firstAttribute="leading" secondItem="GMS-Yj-WUc" secondAttribute="leading" id="Ktb-SU-k9E"/>
+                                    <constraint firstAttribute="trailing" secondItem="LUI-ds-unD" secondAttribute="trailing" id="kai-8R-VFR"/>
+                                    <constraint firstItem="LUI-ds-unD" firstAttribute="top" secondItem="GMS-Yj-WUc" secondAttribute="top" id="yVb-sy-kH6"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g43-7K-BDw" customClass="CustomSV" customModule="MyWearherApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="194" translatesAutoresizingMaskIntoConstraints="NO" id="tw7-1g-uEk" customClass="BlurView" customModule="MyWearherApp" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="28" width="359" height="194"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="359" placeholderIntrinsicHeight="423" translatesAutoresizingMaskIntoConstraints="NO" id="Q69-dL-cfn" customClass="ForecastView" customModule="MyWearherApp" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="422" width="359" height="423"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Q69-dL-cfn" secondAttribute="trailing" constant="8" id="08w-kM-Vap"/>
+                                    <constraint firstItem="tw7-1g-uEk" firstAttribute="top" secondItem="g43-7K-BDw" secondAttribute="topMargin" id="BKA-FK-c24"/>
+                                    <constraint firstItem="Q69-dL-cfn" firstAttribute="leading" secondItem="g43-7K-BDw" secondAttribute="leading" constant="8" id="Bah-6S-tZR"/>
+                                    <constraint firstItem="Q69-dL-cfn" firstAttribute="bottom" secondItem="g43-7K-BDw" secondAttribute="bottomMargin" id="WSp-ko-N4h"/>
+                                    <constraint firstItem="tw7-1g-uEk" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="g43-7K-BDw" secondAttribute="trailingMargin" id="g9c-eo-nm0"/>
+                                    <constraint firstItem="tw7-1g-uEk" firstAttribute="leading" secondItem="g43-7K-BDw" secondAttribute="leadingMargin" id="pxc-dC-7BW"/>
+                                    <constraint firstItem="Q69-dL-cfn" firstAttribute="top" secondItem="tw7-1g-uEk" secondAttribute="bottom" constant="200" id="tUy-q5-8Dc"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GMS-Yj-WUc" secondAttribute="trailing" id="1Q3-FX-tzN"/>
+                            <constraint firstItem="g43-7K-BDw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="BNP-Tj-zBC"/>
+                            <constraint firstItem="GMS-Yj-WUc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IiF-fy-0MD"/>
+                            <constraint firstAttribute="trailing" secondItem="xYQ-NH-8ab" secondAttribute="trailing" id="TXz-7a-ICx"/>
+                            <constraint firstItem="xYQ-NH-8ab" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ufl-6D-TwT"/>
+                            <constraint firstItem="GMS-Yj-WUc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bot-IQ-eDV"/>
+                            <constraint firstItem="g43-7K-BDw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGg-Sv-K0o"/>
+                            <constraint firstItem="xYQ-NH-8ab" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hIY-5u-Hrm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GMS-Yj-WUc" secondAttribute="bottom" id="jT8-SE-4qf"/>
+                            <constraint firstItem="xYQ-NH-8ab" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k3t-o2-TOj"/>
+                            <constraint firstItem="g43-7K-BDw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lEL-Dt-Pq5"/>
+                            <constraint firstItem="g43-7K-BDw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="s6g-tR-vsy"/>
+                            <constraint firstItem="g43-7K-BDw" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="w7Q-av-cgC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Effects" destination="GMS-Yj-WUc" id="0i0-kb-ttg"/>
+                        <outlet property="background" destination="xYQ-NH-8ab" id="aLQ-PK-bnw"/>
+                        <outlet property="currentWeatherView" destination="tw7-1g-uEk" id="PcO-cN-QqD"/>
+                        <outlet property="forecastView" destination="Q69-dL-cfn" id="USp-Jv-glJ"/>
+                        <outlet property="scrollView" destination="g43-7K-BDw" id="L2p-g1-sqv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Clouds-PNG-Image.png" width="900" height="392"/>
+        <image name="daySky.jpg" width="650" height="1300"/>
+    </resources>
 </document>

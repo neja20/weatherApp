@@ -1,0 +1,6 @@
+framework module Pods_MyWearherApp {
+  umbrella header "Pods-MyWearherApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

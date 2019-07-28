@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,26 @@
 		44013F6622E9C32C00E423D3 /* MyWearherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44013F6422E9C32C00E423D3 /* MyWearherApp.xcdatamodeld */; };
 		44013F6822E9C32E00E423D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44013F6722E9C32E00E423D3 /* Assets.xcassets */; };
 		44013F6B22E9C32E00E423D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44013F6922E9C32E00E423D3 /* LaunchScreen.storyboard */; };
+		4407410822EA6B950060443A /* daySky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4407410722EA6B950060443A /* daySky.jpg */; };
+		4407410A22EA6CE90060443A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407410922EA6CE90060443A /* BlurView.swift */; };
+		4407410C22EB14210060443A /* weatherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4407410B22EB14210060443A /* weatherView.xib */; };
+		4407410E22EB575B0060443A /* CustomSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407410D22EB575B0060443A /* CustomSV.swift */; };
+		4407411022EC2DF40060443A /* ForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4407410F22EC2DF40060443A /* ForecastView.xib */; };
+		4407411222EC2FF60060443A /* ForecastCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407411122EC2FF60060443A /* ForecastCellView.swift */; };
+		4407411422EC3C240060443A /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407411322EC3C240060443A /* ForecastView.swift */; };
+		44149B2D22E9D5CC00A47FB7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44149B2C22E9D5CC00A47FB7 /* LocationManager.swift */; };
+		44149B2F22E9E3A700A47FB7 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44149B2E22E9E3A700A47FB7 /* WeatherService.swift */; };
+		441D250522E9C8B80027C1F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441D250422E9C8B80027C1F1 /* CoreLocation.framework */; };
+		44A253B422EC83F60068CD76 /* rainPE.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44A253B222EC83F60068CD76 /* rainPE.sks */; };
+		44A253B522EC83F60068CD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A253B322EC83F60068CD76 /* Assets.xcassets */; };
+		44A253BE22EC8B070068CD76 /* clearPE.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44A253BD22EC8B070068CD76 /* clearPE.sks */; };
+		44A253C222EC8F230068CD76 /* Nigth.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44A253C122EC8F230068CD76 /* Nigth.sks */; };
+		44A253CB22EDA62A0068CD76 /* nightSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44A253CA22EDA6290068CD76 /* nightSky.jpg */; };
+		44A253CD22EDA9DF0068CD76 /* EffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A253CC22EDA9DF0068CD76 /* EffectsView.swift */; };
+		44A253D122EDAD330068CD76 /* Clouds-PNG-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A253D022EDAD320068CD76 /* Clouds-PNG-Image.png */; };
+		44A253D322EDB80B0068CD76 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44A253D222EDB80B0068CD76 /* MyScene.sks */; };
+		44A253E322EDCC010068CD76 /* Mist.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A253E222EDCC010068CD76 /* Mist.png */; };
+		ED019CCCF0D3C8B9E814016F /* Pods_MyWearherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B7EA57190963FA375B79B8 /* Pods_MyWearherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,28 @@
 		44013F6722E9C32E00E423D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44013F6A22E9C32E00E423D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44013F6C22E9C32E00E423D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4407410722EA6B950060443A /* daySky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daySky.jpg; sourceTree = "<group>"; };
+		4407410922EA6CE90060443A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		4407410B22EB14210060443A /* weatherView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = weatherView.xib; sourceTree = "<group>"; };
+		4407410D22EB575B0060443A /* CustomSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSV.swift; sourceTree = "<group>"; };
+		4407410F22EC2DF40060443A /* ForecastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastView.xib; sourceTree = "<group>"; };
+		4407411122EC2FF60060443A /* ForecastCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCellView.swift; sourceTree = "<group>"; };
+		4407411322EC3C240060443A /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		44149B2C22E9D5CC00A47FB7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		44149B2E22E9E3A700A47FB7 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		441D250422E9C8B80027C1F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44A253B222EC83F60068CD76 /* rainPE.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rainPE.sks; sourceTree = "<group>"; };
+		44A253B322EC83F60068CD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A253BD22EC8B070068CD76 /* clearPE.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = clearPE.sks; sourceTree = "<group>"; };
+		44A253C122EC8F230068CD76 /* Nigth.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Nigth.sks; sourceTree = "<group>"; };
+		44A253CA22EDA6290068CD76 /* nightSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightSky.jpg; sourceTree = "<group>"; };
+		44A253CC22EDA9DF0068CD76 /* EffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsView.swift; sourceTree = "<group>"; };
+		44A253D022EDAD320068CD76 /* Clouds-PNG-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clouds-PNG-Image.png"; sourceTree = "<group>"; };
+		44A253D222EDB80B0068CD76 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		44A253E222EDCC010068CD76 /* Mist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mist.png; sourceTree = "<group>"; };
+		A93D6ECD7773B67DF71C2F41 /* Pods-MyWearherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWearherApp.release.xcconfig"; path = "Target Support Files/Pods-MyWearherApp/Pods-MyWearherApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8B7EA57190963FA375B79B8 /* Pods_MyWearherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWearherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86ECD049675DBE3B26E155A /* Pods-MyWearherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWearherApp.debug.xcconfig"; path = "Target Support Files/Pods-MyWearherApp/Pods-MyWearherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED019CCCF0D3C8B9E814016F /* Pods_MyWearherApp.framework in Frameworks */,
+				441D250522E9C8B80027C1F1 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +86,8 @@
 			children = (
 				44013F5C22E9C32B00E423D3 /* MyWearherApp */,
 				44013F5B22E9C32B00E423D3 /* Products */,
+				8E61A1097EB3E384C59B6D24 /* Pods */,
+				45FC3FF328B930434B2F19EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +102,8 @@
 		44013F5C22E9C32B00E423D3 /* MyWearherApp */ = {
 			isa = PBXGroup;
 			children = (
+				44A253C322EDA3A30068CD76 /* Images */,
+				44149B3022EA5AC600A47FB7 /* Scenes */,
 				44013F5D22E9C32C00E423D3 /* AppDelegate.swift */,
 				44013F5F22E9C32C00E423D3 /* ViewController.swift */,
 				44013F6122E9C32C00E423D3 /* Main.storyboard */,
@@ -63,8 +111,58 @@
 				44013F6922E9C32E00E423D3 /* LaunchScreen.storyboard */,
 				44013F6C22E9C32E00E423D3 /* Info.plist */,
 				44013F6422E9C32C00E423D3 /* MyWearherApp.xcdatamodeld */,
+				44149B2C22E9D5CC00A47FB7 /* LocationManager.swift */,
+				44149B2E22E9E3A700A47FB7 /* WeatherService.swift */,
+				4407410922EA6CE90060443A /* BlurView.swift */,
+				4407410B22EB14210060443A /* weatherView.xib */,
+				4407410D22EB575B0060443A /* CustomSV.swift */,
+				4407410F22EC2DF40060443A /* ForecastView.xib */,
+				4407411122EC2FF60060443A /* ForecastCellView.swift */,
+				4407411322EC3C240060443A /* ForecastView.swift */,
+				44A253CC22EDA9DF0068CD76 /* EffectsView.swift */,
 			);
 			path = MyWearherApp;
+			sourceTree = "<group>";
+		};
+		44149B3022EA5AC600A47FB7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				44A253B222EC83F60068CD76 /* rainPE.sks */,
+				44A253B322EC83F60068CD76 /* Assets.xcassets */,
+				44A253BD22EC8B070068CD76 /* clearPE.sks */,
+				44A253C122EC8F230068CD76 /* Nigth.sks */,
+				44A253D222EDB80B0068CD76 /* MyScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		44A253C322EDA3A30068CD76 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				44A253E222EDCC010068CD76 /* Mist.png */,
+				44A253D022EDAD320068CD76 /* Clouds-PNG-Image.png */,
+				44A253CA22EDA6290068CD76 /* nightSky.jpg */,
+				4407410722EA6B950060443A /* daySky.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		45FC3FF328B930434B2F19EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441D250422E9C8B80027C1F1 /* CoreLocation.framework */,
+				B8B7EA57190963FA375B79B8 /* Pods_MyWearherApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E61A1097EB3E384C59B6D24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86ECD049675DBE3B26E155A /* Pods-MyWearherApp.debug.xcconfig */,
+				A93D6ECD7773B67DF71C2F41 /* Pods-MyWearherApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44013F6F22E9C32E00E423D3 /* Build configuration list for PBXNativeTarget "MyWearherApp" */;
 			buildPhases = (
+				1F4FECA1D02F8BF8479F2C99 /* [CP] Check Pods Manifest.lock */,
 				44013F5622E9C32B00E423D3 /* Sources */,
 				44013F5722E9C32B00E423D3 /* Frameworks */,
 				44013F5822E9C32B00E423D3 /* Resources */,
+				E53729D974ADDEDE3C4B8BB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +225,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A253E322EDCC010068CD76 /* Mist.png in Resources */,
+				44A253B422EC83F60068CD76 /* rainPE.sks in Resources */,
+				44A253BE22EC8B070068CD76 /* clearPE.sks in Resources */,
+				4407410C22EB14210060443A /* weatherView.xib in Resources */,
+				44A253D122EDAD330068CD76 /* Clouds-PNG-Image.png in Resources */,
 				44013F6B22E9C32E00E423D3 /* LaunchScreen.storyboard in Resources */,
+				44A253CB22EDA62A0068CD76 /* nightSky.jpg in Resources */,
 				44013F6822E9C32E00E423D3 /* Assets.xcassets in Resources */,
+				4407411022EC2DF40060443A /* ForecastView.xib in Resources */,
+				4407410822EA6B950060443A /* daySky.jpg in Resources */,
+				44A253D322EDB80B0068CD76 /* MyScene.sks in Resources */,
+				44A253B522EC83F60068CD76 /* Assets.xcassets in Resources */,
+				44A253C222EC8F230068CD76 /* Nigth.sks in Resources */,
 				44013F6322E9C32C00E423D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F4FECA1D02F8BF8479F2C99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWearherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53729D974ADDEDE3C4B8BB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWearherApp/Pods-MyWearherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWearherApp/Pods-MyWearherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWearherApp/Pods-MyWearherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44013F5622E9C32B00E423D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44149B2F22E9E3A700A47FB7 /* WeatherService.swift in Sources */,
+				44A253CD22EDA9DF0068CD76 /* EffectsView.swift in Sources */,
+				44149B2D22E9D5CC00A47FB7 /* LocationManager.swift in Sources */,
 				44013F6022E9C32C00E423D3 /* ViewController.swift in Sources */,
+				4407411222EC2FF60060443A /* ForecastCellView.swift in Sources */,
 				44013F6622E9C32C00E423D3 /* MyWearherApp.xcdatamodeld in Sources */,
+				4407411422EC3C240060443A /* ForecastView.swift in Sources */,
+				4407410E22EB575B0060443A /* CustomSV.swift in Sources */,
 				44013F5E22E9C32C00E423D3 /* AppDelegate.swift in Sources */,
+				4407410A22EA6CE90060443A /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +444,13 @@
 		};
 		44013F7022E9C32E00E423D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86ECD049675DBE3B26E155A /* Pods-MyWearherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M75XZLVHX8;
 				INFOPLIST_FILE = MyWearherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,17 +458,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Nejezchleb.MyWearherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		44013F7122E9C32E00E423D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93D6ECD7773B67DF71C2F41 /* Pods-MyWearherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M75XZLVHX8;
 				INFOPLIST_FILE = MyWearherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Nejezchleb.MyWearherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
